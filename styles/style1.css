@@ -173,10 +173,51 @@ margin: 40px 0px;
     height: 50px;
     margin: 0px 10px 20px 75px;
 }
-input {
+.donate-input {
     display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center;    /* Vertical centering */
-    text-align: center;     /* Center placeholder text horizontally */
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;   
     font-size: 16px; 
+}
+.donate-btn{
+background-color:#006A50;
+width:120px;
+height:40px;
+    margin: 10px 350px 10px 570px;
+    color:#FFFFFF;
+border-radius: 5px;;
+}
+.sub-news{
+    background-color: #C6E4D6;
+    padding:55px;
+    margin: 30px 10px;
+    border-radius: 10px;
+}
+.sub-head{
+    text-align: center;
+    color: #0E0E0E;
+    font-weight: 800;
+    font-size: 50px;
+}
+.sub-desc{
+    text-align: center;
+    margin: 20px 0px;
+}
+.sub-input{
+    width:600px;
+}
+.sub-input-box{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    margin: 30px auto;
+
+}
+.sub-input{
+   padding:0px 50px;
+}
+.promise{
+
+    text-align: center;
 }
