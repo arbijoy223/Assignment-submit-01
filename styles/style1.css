@@ -8,6 +8,11 @@ body{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.hover-effect  :hover{
+background-color:aquamarine;
+}
+
 .banner{
     width:1260px;
     height: 560px;
@@ -91,15 +96,24 @@ body{
 .clm-btn1{
     color:#FFFFFF;
     background-color: #5490F5;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
 }
 .clm-btn2{
     color:#FFFFFF;
     background-color: #09A15C;
     margin: 15px 0px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
 }
 .clm-btn3{
     color:#FFFFFF;
     background-color: #FFC239;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
 }
 
 .dr-younus{
@@ -164,6 +178,8 @@ body{
 
 .donate-today{
     text-align: center;
+    font-weight: 800;
+    font-size: 40px;
 }
 .donate-para{
     text-align: center;
@@ -188,7 +204,16 @@ border-radius: 5px;
 margin: 40px 0px;
 }
 .box2{
-    background-color: #09A15C;
+    background-color: #C6E4D6;
+}
+.box1{
+    background-color:#F7EBCF;
+}
+.box3{
+    background-color: #81B4FC;
+}
+.box4{
+    background-color: #FFC239;
 }
 .donate-input{
     width:1100px;
@@ -243,3 +268,4 @@ border-radius: 5px;;
 
     text-align: center;
 }
+
